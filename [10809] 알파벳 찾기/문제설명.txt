@@ -1,0 +1,8 @@
+알파벳 소문자로만 이루어진 단어가 주어진다. (word라고 가정함)
+
+word가 baekjoon이라는 문자라고 가정
+a~z 배열은 alphabet이라는 이름을 가진다고 가정 ([a, b, c, d, ...])
+
+alphabet의 문자와 word의 문자가 같을 경우, alphabet의 배열에는 word의 index가 추가된다.
+단 중복이 있을경우 word의 문자가 처음 등장하는 위치를 alphabet의 배열에 추가한다.
+word의 문자가 alphabet의 문자에 없다면 -1을 alphabet의 배열에 추가한다.
