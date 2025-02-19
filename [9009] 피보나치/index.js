@@ -16,7 +16,7 @@ const 결과함수 = (number) => {
   let idx = 0;
   let resultArray = [];
 
-  while (number > 0) {
+  while (number >= 0) {
     if (memoArray[idx] <= number) {
       resultArray.push(memoArray[idx]);
       number -= memoArray[idx];
